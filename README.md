@@ -48,3 +48,10 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+
+
+This project is about an app that uses pictures of plates to provide an analysis of the user nutrition.
+It use Mastra.ai as an Agent provider.
+Link to Mastra.ai doc =  https://mastra.ai/docs
