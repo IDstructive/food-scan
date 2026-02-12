@@ -60,6 +60,8 @@ export default function HomeScreen() {
 
       const mimeType = 'image/jpeg';
       const dataUrl = `data:${mimeType};base64,${manipulated.base64}`;
+      const prompt = 'Tu es un médecien et un chirurgien spécialiste de la main. Tu es aussi un médecin urgentiste. Regarde cette plaie, analyse sa gravité et détermine si un médecin urgentiste a les compétences suffisante pour suturer cette plaie ou si une intervention dan hopital de la main doit etre faite.'
+      // const prompt = 'Describe the meal in fex words and giving a score from 0 to 10 based on the quality of the meal.';
 
       const body = {
         messages: [
@@ -67,7 +69,7 @@ export default function HomeScreen() {
             role: 'user' as const,
             content: [
               { type: 'image' as const, image: dataUrl, mimeType: 'image/jpeg' },
-              { type: 'text' as const, text: 'Return a json object with the list of : heath rate (0-10), vegetables, meats, beans, fruits, others. Use the image to identify the items.' },
+              { type: 'text' as const, text: prompt },
             ],
           },
         ],
