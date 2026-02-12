@@ -55,3 +55,6 @@ Join our community of developers creating universal apps.
 This project is about an app that uses pictures of plates to provide an analysis of the user nutrition.
 It use Mastra.ai as an Agent provider.
 Link to Mastra.ai doc =  https://mastra.ai/docs
+
+Link to expo orbit doc:
+https://docs.expo.dev/build/orbit/

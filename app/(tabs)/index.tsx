@@ -67,7 +67,7 @@ export default function HomeScreen() {
             role: 'user' as const,
             content: [
               { type: 'image' as const, image: dataUrl, mimeType: 'image/jpeg' },
-              { type: 'text' as const, text: 'Return a json object with the list of : vegetables, meats, beans, fruits, others. Use the image to identify the items.' },
+              { type: 'text' as const, text: 'Return a json object with the list of : heath rate (0-10), vegetables, meats, beans, fruits, others. Use the image to identify the items.' },
             ],
           },
         ],

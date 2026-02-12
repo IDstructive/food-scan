@@ -22,7 +22,10 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.anonymous.foodscan",
-      "permissions": ["CAMERA"]
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "output": "static",
@@ -53,6 +56,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "26911391-3a13-43f5-8c1e-1133e86d03e3"
+      }
+    },
+    "owner": "broli"
   }
 }
